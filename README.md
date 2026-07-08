@@ -23,8 +23,10 @@ vue-study/
 │   └── first-contact/          # Primeiro contato com Vue 3 e create-vue
 ├── lesson02/
 │   └── dom-and-virtual-dom/    # DOM x Virtual DOM
-└── lesson03/
-    └── reactivity-in-vue/      # ref() x reactive()
+├── lesson03/
+│   └── reactivity-in-vue/      # ref() x reactive()
+└── lesson04/
+    └── directives-vue/         # v-if, v-show, v-for, v-bind, v-model, v-on
 ```
 
 ## 📚 Lições
@@ -34,6 +36,7 @@ vue-study/
 | 01 | [`first-contact`](lesson01/first-contact) | Primeiro contato com Vue 3 | `<script setup>`, componentes, `create-vue` |
 | 02 | [`dom-and-virtual-dom`](lesson02/dom-and-virtual-dom) | DOM x Virtual DOM | reatividade, `v-if`, `watchEffect` |
 | 03 | [`reactivity-in-vue`](lesson03/reactivity-in-vue) | Reatividade na Composition API | `ref()`, `reactive()`, `v-model` |
+| 04 | [`directives-vue`](lesson04/directives-vue) | Diretivas do Vue 3 | `v-if`, `v-show`, `v-for`, `v-bind`, `v-model`, `v-on`, Vue Router |
 
 > Cada pasta de lição tem seu próprio README com os detalhes do que foi estudado.
 
@@ -54,13 +57,15 @@ bun run dev
 | [Vite](https://vite.dev/) | Build tool / dev server |
 | TypeScript | Tipagem estática |
 | [Bun](https://bun.sh) | Runtime e gerenciador de pacotes |
-| [Pinia](https://pinia.vuejs.org/) / [Vue Router](https://router.vuejs.org/) | Instalados via scaffold do `create-vue`, ainda não explorados nas lições atuais |
+| [Vue Router](https://router.vuejs.org/) | Navegação entre views (usado a partir da lição 04) |
+| [Pinia](https://pinia.vuejs.org/) | Instalado via scaffold do `create-vue`, ainda não explorado nas lições atuais |
 
 ## 🗺️ Roadmap
 
 - [x] Lição 01 — First Contact
 - [x] Lição 02 — DOM x Virtual DOM
 - [x] Lição 03 — Reactivity in Vue
+- [x] Lição 04 — Directives Vue
 - [ ] Próximas lições (computed, watch, lifecycle hooks, componentização avançada...)
 
 ---
